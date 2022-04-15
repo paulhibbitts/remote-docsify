@@ -4,6 +4,7 @@ It seems you ended up here by accident. This site is meant to host the docs for 
 
 https://paulhibbitts.github.io/remote-docsify/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main
 
-https://paulhibbitts.github.io/remote-docsify/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main&homepage=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main/README.md#/
+Known issue: a remote repo homepage does not seem to be passable as a parameter (syntax shown below), so this has been added in manually to the index.html file: `homepage: 'https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main/README.md',`
 
-Known issue: a remote repo homepage does not seem to be passable as a parameter, so this has been added in manually to the index.html file: `homepage: 'https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main/README.md',`
+
+https://paulhibbitts.github.io/remote-docsify/?basePath=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main&homepage=https://raw.githubusercontent.com/hibbitts-design/docsify-open-course-starter-kit/main/README.md#/
